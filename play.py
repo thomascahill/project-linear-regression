@@ -80,11 +80,12 @@ class LinearRegression:
         #display plots
         plt.show()
 
-# linear_regression = LinearRegression()
+linear_regression = LinearRegression()
 
 # print(linear_regression.features)
 # print(linear_regression.scaled_features)
 # print(linear_regression.targets)
-# linear_regression.train()
+linear_regression.train()
+print(linear_regression.losses[-1])
 # linear_regression.plot()
 
